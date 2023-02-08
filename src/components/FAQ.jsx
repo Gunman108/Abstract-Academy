@@ -26,6 +26,12 @@ const FAQ = () =>  (
         We offer a 90% return policy within the first three days of attendence.
       </p>
       <h3 className={styles.heading3}>
+      What is the referral bonus?
+      </h3>
+      <p className={`${styles.paragraph} ml-10 my-5`}>
+        If you refer a friend to our program, both you and they will receive $100 off your curriculum fee.
+      </p>
+      <h3 className={styles.heading3}>
       How do I know I’m ready for Abstract Academy?
       </h3>
       <p className={`${styles.paragraph} ml-10 my-5`}>

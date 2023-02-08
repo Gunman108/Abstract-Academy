@@ -21,8 +21,9 @@ import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import profile from "./prof.png";
-import readyPDF from "./Are_you_ready.pdf"
-import currPDF from "./NFCurriculum.pdf"
+import readyPDF from "./Are_you_ready.pdf";
+import currPDF from "./NFCurriculum.pdf";
+import main from "./main.gif";
 
 export {
   airbnb,
@@ -34,6 +35,7 @@ export {
   logo,
   quotes,
   robot,
+  main,
   send,
   shield,
   star,

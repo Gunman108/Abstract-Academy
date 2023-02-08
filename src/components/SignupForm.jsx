@@ -13,6 +13,7 @@ export default function MyModal({visible, onClose}){
         ref: "",
         student_name: "",
         student_email: "",
+        session: "",
         ready: false,
         essay: ""
     });
@@ -25,6 +26,7 @@ export default function MyModal({visible, onClose}){
             referral: details.ref,
             student_name: details.student_name,
             student_email: details.student_email,
+            session: details.session,
             essay: details.essay
         }
 
@@ -38,23 +40,20 @@ export default function MyModal({visible, onClose}){
     }
 
     function register() {
+      const emailRe = /(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*\")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])/;
         if (details.parent_name == "") {
           alert("Enter name");
-          // window.location.reload(false);
           return false;
         } else if (
-          details.parent_email == ""
+          !emailRe.test(details.parent_email)
         ) {
-          alert("Enter valid email");
-          // window.location.reload(false);
+          alert("Please enter valid email");
           return false;
         } else if (details.student_name == "") {
           alert("Enter student name");
-          // window.location.reload(false);
           return false;
         } else if (!details.ready) {
           alert("Please instruct your child to read the \"Are You Ready\" document");
-          // window.location.reload(false);
           return false;
         } else {
             sendEmail();
@@ -62,7 +61,7 @@ export default function MyModal({visible, onClose}){
       }
 
 
-    return <div className="overflow-y-auto z-10 pt-60 pb-10 fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center">
+    return <div className="overflow-y-auto z-10 pt-[360px] pb-10 fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center">
     <div className="bg-white p-2 rounded">
         
         <button onClick={onClose}>X</button>
@@ -130,6 +129,12 @@ export default function MyModal({visible, onClose}){
             value={details.student_email}
             placeholder="email@example.com"
           />
+          <label for="sessions">Which session would you like to register for?:</label>
+            <select name="sessions" className="border border-gray-700 p-2 rounded mb-5" onChange={(e) => setDetails({ ...details, session: e.target.value })}>
+              <option value="alpha">Session Alpha: July 3 - July 14</option>
+              <option value="beta">Session Beta: July 17 - July 28</option>
+              <option value="gamma">Session Gamma: July 31 - August 11</option>
+            </select>
           <label>
             <input
             className="mb-5 mr-2 mt-5 scale-1.5"

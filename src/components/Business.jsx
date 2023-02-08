@@ -36,7 +36,9 @@ const Business = ({click}) =>  (
       Ages 12-18
       </p>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      July 31 - August 11 2023, Weekdays
+      SESSION ALPHA: July 3 - July 14 2023, Weekdays <br />
+      SESSION BETA: July 17 - July 28 2023, Weekdays <br />
+      SESSION GAMMA: July 31 - August 11 2023, Weekdays <br />
       </p>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Math Session: 10:00AM - 12:00PM EST, Online <br/>
