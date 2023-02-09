@@ -2,7 +2,7 @@ import styles, { layout } from "../style";
 import readyPDF from "../assets/Are_you_ready.pdf";
 
 const FAQ = () =>  (
-  <section id="curriculum" className={layout.section}>
+  <section id="faq" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         Frequently Asked Questions

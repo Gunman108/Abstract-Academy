@@ -22,6 +22,10 @@ export const navLinks = [
     id: "quotes",
     title: "Quotes",
   },
+  {
+    id: "faq",
+    title: "FAQ",
+  },
 ];
 
 export const features = [
@@ -56,14 +60,14 @@ export const features = [
 ];
 
 export const feedback = [
-  {
-    id: "feedback-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Grace S.",
-    title: "Owner of Code Ninjas, Medfield",
-    img: profile,
-  },
+  // {
+  //   id: "feedback-1",
+  //   content:
+  //     "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+  //   name: "Grace S.",
+  //   title: "Owner of Code Ninjas, Medfield",
+  //   img: profile,
+  // },
   {
     id: "feedback-2",
     content:
@@ -80,14 +84,14 @@ export const feedback = [
     title: "International Mathematical Olympiad Medalist",
     img: profile,
   },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Rob M.",
-    title: "Head of Academics, NuVu Innovation school",
-    img: profile,
-  },
+  // {
+  //   id: "feedback-4",
+  //   content:
+  //     "It is usually people in the money business, finance, and international trade that are really rich.",
+  //   name: "Rob M.",
+  //   title: "Head of Academics, NuVu Innovation school",
+  //   img: profile,
+  // },
 ];
 
 export const stats = [
@@ -178,22 +182,17 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/abstract.acad/",
   },
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/profile.php?id=100090096793133",
   },
   {
     id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/abstractacademy",
   },
 ];
 
