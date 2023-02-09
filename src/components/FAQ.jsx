@@ -11,13 +11,13 @@ const FAQ = () =>  (
       Why math AND programming?
       </h3>
       <p className={`${styles.paragraph} ml-10 my-5`}>
-        At Abstract we believe that leveraging both Math <b>and</b> Programming in tandem provides our students with a stronger grasp and knowledge base in both diciplines, a grasp even stronger than than if they focused exclusively on one or the other.
+        At Abstract we believe that leveraging both Math <b>and</b> Programming in tandem provides our students with a stronger grasp and knowledge base in both diciplines, a grasp even stronger than if they focused exclusively on one or the other.
       </p>
       <h3 className={styles.heading3}>
       What makes us qualified?
       </h3>
       <p className={`${styles.paragraph} ml-10 my-5`}>
-        While we may be young, we've been teaching for a combined 10 years and pride ourselves on our ability to tailor a personalized learning experience though our abilities to connect with a younger age demographic.
+        While we may be young, we've been teaching for a combined 10 years and pride ourselves on our skills in tailoring a personalized learning experience though our abilities to connect with a younger age demographic.
       </p>
       <h3 className={styles.heading3}>
       What is the return policy?
@@ -29,7 +29,7 @@ const FAQ = () =>  (
       What is the referral bonus?
       </h3>
       <p className={`${styles.paragraph} ml-10 my-5`}>
-        If you refer a friend to our program, both you and they will receive $100 off your curriculum fee.
+        If you refer a friend to our program, both you and they will receive $100 off the curriculum fee.
       </p>
       <h3 className={styles.heading3}>
       How do I know I’m ready for Abstract Academy?
@@ -47,7 +47,13 @@ const FAQ = () =>  (
       Where does this all take place?
       </h3>
       <p className={`${styles.paragraph} ml-10 my-5`}>
-        We offer all our classes in zoom meetings. Outside of lessons, we field questions, give feedback, and facilitate discussions in a community discord server.
+        We offer all our classes in zoom meetings. Outside of lessons, we field questions, give feedback, and facilitate discussions in our community discord server.
+      </p>
+      <h3 className={styles.heading3}>
+        Do you offer scholarships?
+      </h3>
+      <p className={`${styles.paragraph} ml-10 my-5`}>
+        We offer partial and full scholarships to students who fill out the optional scholarship essay.
       </p>
     </div>
   </section>

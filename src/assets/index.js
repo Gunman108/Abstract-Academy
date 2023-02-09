@@ -24,6 +24,7 @@ import profile from "./prof.png";
 import readyPDF from "./Are_you_ready.pdf";
 import currPDF from "./NFCurriculum.pdf";
 import main from "./main.gif";
+import math from "./Day4Math.pdf";
 
 export {
   airbnb,
@@ -51,5 +52,6 @@ export {
   twitter,
   profile,
   readyPDF,
-  currPDF
+  currPDF,
+  math
 };

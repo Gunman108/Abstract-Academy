@@ -1,6 +1,8 @@
 import { profile, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox } from "../assets";
 import currPDF from "../assets/NFCurriculum.pdf";
 import readyPDF from "../assets/Are_you_ready.pdf";
+import mathPDF from "../assets/Day4Math.pdf"
+import codingPDF from "../assets/Day4Coding.pdf"
 
 import {GrDocumentText} from  "react-icons/gr";
 import { Profiler } from "react";
@@ -40,15 +42,15 @@ export const features = [
     id: "feature-2",
     title: "Sample Math Handout",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
-    link: ".",
+      "Repeating yourself? A look into sequences and series, both Arithmetic and and Geometric, finite and infinite.",
+    link: mathPDF,
   },
   {
     id: "feature-3",
     title: "Sample Programming Handout",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
-    link: ".",
+      "Don't get thrown for a loop! We examine for loops and while loops in this day 4 lesson.",
+    link: codingPDF,
   },
   {
     id: "feature-4",

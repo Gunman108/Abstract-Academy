@@ -33,7 +33,7 @@ const Business = ({click}) =>  (
       40 Hours
       </p>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Ages 12-18
+      Ages 13-17 *exceptions apply
       </p>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       SESSION ALPHA: July 3 - July 14 2023, Weekdays <br />
