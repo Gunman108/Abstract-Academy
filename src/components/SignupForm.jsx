@@ -61,7 +61,7 @@ export default function MyModal({visible, onClose}){
       }
 
 
-    return <div className="overflow-y-auto z-10 pt-[360px] pb-10 fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center">
+    return <div className="justify-left overflow-y-auto z-10 pt-[450px] pb-10 fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex items-center sm:justify-center sm:pt-[360px]">
     <div className="bg-white p-2 rounded">
         
         <button onClick={onClose}>X</button>
