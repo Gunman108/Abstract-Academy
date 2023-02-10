@@ -49,7 +49,7 @@ export const features = [
     id: "feature-3",
     title: "Sample Programming Handout",
     content:
-      "Don't get thrown for a loop! We examine for loops and while loops in this day 4 lesson.",
+      "I do declare! Our first programming lesson covers data and its many forms in your computer.",
     link: codingPDF,
   },
   {
