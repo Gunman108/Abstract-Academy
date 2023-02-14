@@ -27,7 +27,7 @@ const Business = ({click}) =>  (
         Our Program
       </h2>
       <h3 className={`${styles.heading3} max-w-[470px] mt-5`}>
-      $1,500
+      $1,250
       </h3>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       40 Hours

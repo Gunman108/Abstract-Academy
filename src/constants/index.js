@@ -62,14 +62,14 @@ export const features = [
 ];
 
 export const feedback = [
-  // {
-  //   id: "feedback-1",
-  //   content:
-  //     "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-  //   name: "Grace S.",
-  //   title: "Owner of Code Ninjas, Medfield",
-  //   img: profile,
-  // },
+  {
+    id: "feedback-1",
+    content:
+      "Corey and Gunner were model instructors at our center, always showing patience and empathy, and nurturing independent, critical thinking among the students. They were particularly adept at assessing each student’s needs and interests and adjusting their method of instruction to appeal to the individual. The students looked up to both Corey and Gunner as positive role models, which elevated the learning experience for the kids in so many ways.",
+    name: "Grace S.",
+    title: "Owner of Code Ninjas, Medfield",
+    img: profile,
+  },
   {
     id: "feedback-2",
     content:
