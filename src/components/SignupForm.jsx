@@ -144,7 +144,7 @@ export default function MyModal({visible, onClose}){
             type="checkbox"></input>
             I verify my child has read the <a href={readyPDF} target="_blank" rel="noopener noreferrer"><span class="text-gumbaOrange">Are You Ready document</span></a>.</label>
           
-          <label>Scholarship Essay, optional:<br/>What do you love about Math, why do you want to learn programming, and how would this scholarship help you?</label>
+          <label>Financial Aid Essay:<br/>What do you love about Math, why do you want to learn programming, and how would this scholarship help you?</label>
           <textarea 
             rows="4" cols="60" 
             className="border border-gray-700 p-2 rounded mb-5" 

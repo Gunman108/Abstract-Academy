@@ -29,7 +29,7 @@ const Billing = () => (
       he has been teaching advanced Python and Machine Learning at the Middle and High School level, in both large classroom
       and 1-1 settings. Holding an interest in logic and Philosophy, his teaching emphasizes the thinking skills and logical
       backbone necessary for programmatic thinking. Gunner is eager to bring industry practice and theoretical understanding
-      together at Abstract Academy. Gunner is studying Computer Science and Philosophy at Brown University.
+      together at Abstract Academy. <b>Gunner is studying Computer Science and Philosophy at Brown University.</b>
       </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">

@@ -53,7 +53,7 @@ const FAQ = () =>  (
         Do you offer scholarships?
       </h3>
       <p className={`${styles.paragraph} ml-10 my-5`}>
-        We offer partial and full scholarships to students who fill out the optional scholarship essay.
+        We may offer financial aid to students who fill out the financial aid essay.
       </p>
     </div>
   </section>

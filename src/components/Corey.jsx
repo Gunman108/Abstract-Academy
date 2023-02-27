@@ -20,8 +20,8 @@ const CardDeal = () => (
       pedagogy. This year, Corey has taken his passion for teaching to the high school classroom. At his teaching position at the <a href = "https://www.nuvuschool.org/" target="_blank">
       <span class="text-gumbaOrange ">NUVU innovation school</span></a>, Corey has been the author of an original problem solving seminar and the co-coach to creative thinking and
       design classes in around math and programming. Corey has taught over 200 kids, and believes he found success in his teaching due to his 
-      ability to relate to kids, fostering a prosperous, personalized, and successful learning environment. Corey is studying pure mathematics 
-      at Carnegie Mellon University.
+      ability to relate to kids, fostering a prosperous, personalized, and successful learning environment. <b>Corey is studying pure mathematics 
+      at Carnegie Mellon University.</b>
       </p>
 
     </div>
